@@ -20,7 +20,7 @@ app.use('/',deletePost);
 //--------Server Port defining and Database connection------------
 
 PORT = process.env.PORT || 3001;
-Db_url = "mongodb+srv://akhil:akhil1234@cluster0.dvlfe.mongodb.net/blogsite?retryWrites=true&w=majority";
+Db_url = "";
 
 app.listen(PORT,()=>{
     console.log(`Server is running on Port ${PORT}`)
